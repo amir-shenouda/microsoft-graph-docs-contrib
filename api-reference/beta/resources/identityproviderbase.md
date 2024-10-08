@@ -15,7 +15,7 @@ Namespace: microsoft.graph
 
 Represents identity providers with [External Identities](/azure/active-directory/external-identities/) for both Microsoft Entra ID and Azure AD B2C tenants.
 
-For Microsoft Entra B2B scenarios in a Microsoft Entra directory, the identity provider can be a [socialIdentityProvider](../resources/socialidentityprovider.md) or a [builtinIdentityProvider](../resources/builtinidentityprovider.md), both of which inherit from the identityProviderBase resource type.
+For Microsoft Entra B2B scenarios in a Microsoft Entra directory, the identity provider can be a [socialIdentityProvider](../resources/socialidentityprovider.md), a [builtinIdentityProvider](../resources/builtinidentityprovider.md), or [custom OIDC identity provider](../resources/customoidcidentityprovider.md) both of which inherit from the identityProviderBase resource type.
 
 Configuring an identity provider in your Microsoft Entra directory enables new Microsoft Entra B2B guest scenarios. For example, an organization has resources in Microsoft 365 that need to be shared with a Gmail user. The Gmail user will use their Google account credentials to authenticate and access the documents.
 
